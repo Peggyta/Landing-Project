@@ -4,6 +4,7 @@ import logo from "./images/logo.png";
 
 const Navbar = () => {
     return (
+        <>
         <header className={styles.header}>
             <div className={styles.listShopping}>
             <ul className={styles.firstList}>
@@ -22,8 +23,19 @@ const Navbar = () => {
                 <li>Country Selector</li>
             </ul>
             </div>
-
         </header>
+        <div className={styles.productsNavbar}>
+                <ul className={styles.thirdList}>
+                    <li>all products</li>
+                    <li>Playing & Learning</li>
+                    <li>Art & Graphic</li>
+                    <li>Creative Studio</li>
+                    <li>General Writing and Marking</li>
+                    <li>Fine Writing</li>
+                    <li>Gift finder</li>
+                </ul>
+            </div>
+            </>
     );
 };
 

@@ -33,9 +33,27 @@
     color: rgb(202, 222, 238);
 }
 
+
 .firstList li:hover , .secondList li:hover {
     color: #fff;
     transition: all .3s ease-in;
+}
+
+
+.thirdList {
+    display:flex;
+    justify-content:flex-start;
+    list-style-type: none;
+    background-color: aliceblue;
+    height: 50px;
+}
+
+.thirdList li{
+    position: relative;
+    left:6%;
+    line-height: 50px;
+    font-size: 0.9rem;
+    padding-left: 30px;
 }
 
 .logo{
