@@ -12,6 +12,10 @@
     cursor: pointer;
 }
 
+.secondList li {
+    font-size: 0.7rem;
+}
+
 .listShopping{
     position: absolute;
     left: 100px;
@@ -26,6 +30,12 @@
 
 .firstList li, .secondList li{
     padding: 0 15px;
+    color: rgb(202, 222, 238);
+}
+
+.firstList li:hover , .secondList li:hover {
+    color: #fff;
+    transition: all .3s ease-in;
 }
 
 .logo{
