@@ -4,6 +4,7 @@
     justify-content: space-around;
     background-color: rgb(94, 116, 116);
     height: 130px;
+    width: 100%;
 }
 
 .firstList, .secondList{
@@ -42,20 +43,20 @@
 
 
 .thirdList {
-    display:flex;
-    justify-content:flex-start;
+   display: flex;
+   align-items: center;
     list-style-type: none;
     background-color: aliceblue;
-    height: 50px;
+   height: 50px; 
 }
 
 .thirdList li{
-    position: relative;
-    left:6%;
-    line-height: 50px;
+   padding-left: 30px;
     font-size: 0.9rem;
-    padding-left: 30px;
+    position: relative;
+    left: 85px;
     cursor: pointer;
+   
 }
 
 .logo{
