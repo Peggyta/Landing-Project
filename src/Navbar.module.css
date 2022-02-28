@@ -1,3 +1,4 @@
+
 .header{
     display: flex;
     position: relative;
@@ -44,6 +45,20 @@
 .productsNavbar{
     width: 100%;
 }
+
+.productsNavbar:before {
+    content: "";
+    position: absolute;
+    top: 119px;
+    left: 11%;
+    height: 4px;
+    width: 4px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid aliceblue;
+}
+
+
 
 .thirdList {
    display: flex;

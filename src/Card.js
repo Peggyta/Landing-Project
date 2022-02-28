@@ -6,7 +6,7 @@ class Card extends Component {
         const {image, name, price} = this.props;
         return (
             <div className={styles.Container}>
-                <img src={image} alt="products" />
+                <img src={image} alt="products"/>
                 <h3>{name}</h3>
                 <p>{price}</p>
             </div>

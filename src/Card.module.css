@@ -1,0 +1,19 @@
+.Container{
+    margin: 10px;
+    overflow: hidden;
+}
+
+.Container img{
+    width: 280px;
+    height: 280px;
+}
+
+.Container h3{
+    margin: 30px 20px 20px;
+}
+.Container p{
+    width: fit-content;
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
