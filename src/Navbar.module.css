@@ -41,6 +41,9 @@
     transition: all .3s ease-in;
 }
 
+.productsNavbar{
+    width: 100%;
+}
 
 .thirdList {
    display: flex;
