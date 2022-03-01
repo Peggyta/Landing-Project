@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from "./Navbar";
 import Banner from "./Banner";
 import Cards from "./Cards";
+import Search from "./Infogram";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <Navbar/>
         <Banner/>
         <Cards />
+        <Search />
       </div>
     );
   }

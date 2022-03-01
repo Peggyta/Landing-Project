@@ -1,0 +1,26 @@
+.Container{
+    text-align: left;
+    margin: 50px 0;
+    background-color: #000;
+    position: relative;
+}
+
+.Container img{
+    width: fit-content;
+    height: 400px;
+}
+
+.infoContainer{
+   color: rgb(154, 167, 204);
+   position: absolute;
+    top: 60px;
+    left: 360px;
+}
+
+.infoContainer h3{
+    color: rgb(233, 211, 138);
+    font-size: 3rem;
+    
+    
+}
+
