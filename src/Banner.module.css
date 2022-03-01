@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 30px;
-    background-color: antiquewhite;
+
 }
 
 .contentContainer{
@@ -13,7 +13,6 @@
 }
 
 .container img{
-    
     width:fit-content;
     height: 550px;
 }
@@ -21,10 +20,9 @@
 
 
 .textContainer{
-    width: fit-content;
+    height: 550px;
     padding: 30px;
-    overflow: hidden;
-    background-color: rgb(109, 126, 126);
+    background-color: rgb(109, 126, 126);  
 }
 
 .contentContainer h3 {
@@ -32,10 +30,15 @@
 }
 
 .infoButton{
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     background-color: rgb(171, 184, 207);
     border: none;
+}
+
+.infoButton:hover{
+    background-color: rgb(191, 164, 202);
+    transition: all .2s ease-in;
 }
