@@ -1,6 +1,10 @@
 .Container{
-    margin: 10px;
+    margin: 10px 25px;
     overflow: hidden;
+    background-color: rgb(94, 116, 116);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(160, 158, 167),
+    -5px -5px 15px rgb(245, 245, 253);
 }
 
 .Container img{
