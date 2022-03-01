@@ -11,6 +11,10 @@ class Search extends Component {
                 <h3>Did you know?</h3>
                 <p>The profile of wood-cased pencils was changed from round to hexagonal/triangle because they were constantly rolling off the table.</p>
                 </div>
+                <div className={styles.searchContainer}>
+                    <p>Search Section</p>
+                    <input placeholder="search..."/>
+                </div>
             </div>
         );
     }
