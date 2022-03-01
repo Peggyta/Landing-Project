@@ -3,8 +3,8 @@
     overflow: hidden;
     background-color: rgb(94, 116, 116);
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgb(160, 158, 167),
-    -5px -5px 15px rgb(245, 245, 253);
+    box-shadow: 6px 6px 10px rgb(160, 158, 167),
+    -7px -7px 15px rgb(232, 232, 238);
 }
 
 .Container img{
@@ -13,11 +13,10 @@
 }
 
 .Container h3{
-    margin: 30px 20px 20px;
+    margin: 15px 20px 10px;
 }
 .Container p{
     width: fit-content;
-    margin: 0 20px;
-    padding: 5px;
+    padding: 8px 20px;
     border-radius: 5px;
 }

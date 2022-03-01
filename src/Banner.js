@@ -4,6 +4,7 @@ import banner from "./images/background.jpg";
 
 const Banner = () => {
     return (
+        
         <div className={styles.container}>
            <div className={styles.contentContainer}>
                 <img src={banner} alt="banner"/>

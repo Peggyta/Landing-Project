@@ -17,12 +17,11 @@
     height: 550px;
 }
 
-
-
 .textContainer{
     height: 550px;
     padding: 30px;
     background-color: rgb(109, 126, 126);  
+    overflow: hidden;
 }
 
 .contentContainer h3 {
