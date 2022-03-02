@@ -1,0 +1,21 @@
+.Container {
+    text-align: center;
+    width: 100%;
+}
+
+
+.socialLogos img{
+  display:flexbox;
+  align-items: center;
+  width: 35px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.socialText{
+    font: italic bold 20px/30px Georgia, serif;
+}
+
+.tipsText{
+    font-size: 15px;
+}

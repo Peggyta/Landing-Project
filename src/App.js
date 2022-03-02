@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Banner from "./Banner";
 import Cards from "./Cards";
 import Search from "./Infogram";
+import SocialMedia from "./SocialMedia";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Banner/>
         <Cards />
         <Search />
+        <SocialMedia/>
       </div>
     );
   }
