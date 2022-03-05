@@ -8,9 +8,23 @@ class Card extends Component {
         constructor(){
             super()
             this.state={
-                counter:0,
+                counter: 0,
             }
         }
+      downHandler = () => {
+          if(this.state.counter>=1){
+              this.setState(prevState=>({
+                  counter: prevState.counter-1,
+              }))
+          }
+      }
+
+      upHandler = () => {
+          this.setState(prevState=>({
+              counter: prevState.counter+1,
+          }))
+      }
+
     render() {
         const {image, name, price} = this.props;
         const{counter} = this.state;
@@ -20,9 +34,9 @@ class Card extends Component {
                 <h3>{name}</h3>
                 <p>{price}</p>
             <div className={styles.counter}>
-                 <img src={minus} alt="remove"/> 
+                 <img src={minus} alt="remove" onClick={this.downHandler}/> 
                  <span>{counter}</span>  
-                 <img src={plus} alt="add"/>
+                 <img src={plus} alt="add" onClick={this.upHandler}/>
             </div>
         </div>
         );
