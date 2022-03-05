@@ -15,11 +15,18 @@
    position: absolute;
     top: 60px;
     left: 360px;
+    
 }
 
 .infoContainer h3{
     color: rgb(233, 211, 138);
     font-size: 3rem;
+}
+
+.infoContainer p{
+    font-weight: 500;
+    font-size: 19px;
+
 }
 
 .searchContainer{
@@ -38,7 +45,7 @@
     border: none;
     background-color: rgb(24, 24, 24);
     border-radius: 5px;
-    width: 300px;
+    width: 290px;
     height: 50px;
     padding: 5px;
 }
