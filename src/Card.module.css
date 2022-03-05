@@ -7,9 +7,10 @@
     -7px -7px 15px rgb(232, 232, 238);
 }
 
-.Container img{
+.products{
     width: 280px;
     height: 280px;
+
 }
 
 .Container h3{
@@ -24,16 +25,21 @@
 .counter{
     display: flex;
     align-items: center;
+    margin: 5px;
 }
 
 .counter img{
-    width: 20px;
-    margin: 20px;
-    cursor: pointer;
+    background-color: rgb(165, 178, 201);
+    width: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 7px;
 }
 
 .counter span{
+   
     padding: 5px;
-    border-radius: 5px;
+    
     font-weight: bold;
 }
+

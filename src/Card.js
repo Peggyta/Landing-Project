@@ -3,21 +3,28 @@ import styles from "./Card.module.css";
 import plus from "./images/plus.svg";
 import minus from "./images/minus.svg";
 
+
 class Card extends Component {
+        constructor(){
+            super()
+            this.state={
+                counter:0,
+            }
+        }
     render() {
         const {image, name, price} = this.props;
-        const {counter} = this.state;
+        const{counter} = this.state;
         return (
-            <div className={styles.Container}>
-                <img src={image} alt="products"/>
+        <div className={styles.Container}>
+                <img className={styles.products} src={image} alt="products"/>
                 <h3>{name}</h3>
                 <p>{price}</p>
-                <div className={styles.Counter}>
-                    <img src={minus} alt="remove item"/>
-                    <span>{counter}</span>
-                    <img src={plus} alt="add item"/>
-                </div>
+            <div className={styles.counter}>
+                 <img src={minus} alt="remove"/> 
+                 <span>{counter}</span>  
+                 <img src={plus} alt="add"/>
             </div>
+        </div>
         );
     }
 }
