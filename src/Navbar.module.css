@@ -47,20 +47,6 @@
     width: 100%;
 }
 
-.productsNavbar:before {
-    content: "";
-    position: absolute;
-    top: 119px;
-    left: 11%;
-    height: 4px;
-    width: 4px;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-bottom: 7px solid aliceblue;
-}
-
-
-
 .thirdList {
    display: flex;
    align-items: center;
@@ -85,3 +71,36 @@ width: 250px;
   padding: 10px 0;
 }
 
+.responsiveMenu{
+    display: none;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    .firstList li{
+        display: none;
+    }
+
+    .secondList li{
+        display: none;
+    }
+
+    .thirdList {
+        display: none;
+    }
+
+    .responsiveMenu{
+        display:block;
+        width: 100%;
+        text-align: center;
+        background: rgb(94, 116, 116);
+    }
+
+    .responsiveMenu li{
+        padding: 20px 0;
+        font-weight: 600;
+        cursor: pointer;
+    }
+   
+
+}

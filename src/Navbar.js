@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Navbar.module.css";
 import logo from "./images/logo.png";
 
+
 const Navbar = () => {
     return (
         <>
@@ -34,6 +35,15 @@ const Navbar = () => {
                     <li>Fine Writing</li>
                     <li>Gift finder</li>
                 </ul>
+                <div className={styles.responsiveMenu}>
+                    <ul>
+                        <li>Our Products</li>
+                        <hr/>
+                        <li>Inspiration</li>
+                        <hr/>
+                        <li>Company</li>
+                    </ul>
+                </div>
             </div>
             </>
     );

@@ -7,11 +7,12 @@ import SocialMedia from "./SocialMedia";
 import Footer from "./Footer";
 
 class App extends Component {
+
   render() {
     return (
       <div>
         <Navbar/>
-        <Banner/>
+        <Banner />
         <Cards />
         <Search />
         <SocialMedia/>
