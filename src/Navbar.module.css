@@ -13,6 +13,7 @@
     display: flex;
     list-style-type: none;
     cursor: pointer;
+    max-width: 1000px;
 }
 
 .secondList li {
@@ -75,7 +76,7 @@ width: 250px;
     display: none;
 }
 
-@media (min-width: 481px) and (max-width: 768px){
+@media (max-width: 768px){
 
     .firstList li{
         display: none;
