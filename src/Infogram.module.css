@@ -50,3 +50,32 @@
     padding: 5px;
 }
 
+@media (max-width:768px){
+
+    .Container{
+        text-align: center;
+    }
+
+    .Container img {
+        display: none;
+        position: unset;
+    }
+
+    .infoContainer{
+        display: none;
+        position: unset;
+    }
+    .searchContainer{
+        position: unset;
+        display: block;
+        padding: 10px;
+    }
+
+    .searchContainer p {
+        text-align: center;
+    }
+
+    .searchContainer input{
+        font-size: 20px;
+    }
+}
