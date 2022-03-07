@@ -22,13 +22,13 @@
     border-radius: 5px;
 }
 
-.counter{
+.counterSection{
     display: flex;
     align-items: center;
     margin: 5px;
 }
 
-.counter img{
+.counterSection img{
     background-color: rgb(165, 178, 201);
     width: 25px;
     border-radius: 5px;
@@ -37,11 +37,34 @@
     cursor: pointer;
 }
 
-.counter span{
+.counterSection span{
     padding: 5px;
     font-weight: bold;
 }
 
 .deactive{
     opacity: 0.4;
+}
+
+@media (max-width: 768px){
+    .Container{
+        margin: 20px;
+    }
+
+    .products{
+        width: 350px;
+        height: 350px;
+    }
+
+    .counterSection{
+        justify-content: end;
+        padding: 10px;
+    }
+
+    .counterSection img{
+        width: 40px;
+    }
+    .counterSection span{
+        font-size: 20px;
+    }
 }

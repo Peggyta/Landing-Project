@@ -3,3 +3,26 @@
     justify-content: center;
     margin-top: 50px;
 }
+
+@media (max-width: 768px){
+    .Container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .Container h3{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .Container p{
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .counterSection img{
+        
+
+    }
+}
