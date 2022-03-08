@@ -84,3 +84,13 @@
     }
 
 }
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .searchContainer input{
+        font-size: 20px;
+    }
+
+    .searchContainer ::placeholder{
+        color: rgb(125, 143, 143);
+    }
+}

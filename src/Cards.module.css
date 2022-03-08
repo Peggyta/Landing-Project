@@ -22,3 +22,24 @@
     }
 
 }
+
+@media (min-width:769px) and (max-width: 1024px){
+    .Container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2,330px);
+        grid-gap: 20px;
+        margin-top: 30px;
+    }
+
+    .Container h3{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .Container p{
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+}
