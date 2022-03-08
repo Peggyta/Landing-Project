@@ -78,4 +78,9 @@
     .searchContainer input{
         font-size: 20px;
     }
+
+    .searchContainer ::placeholder{
+        color: rgb(125, 143, 143);
+    }
+
 }
