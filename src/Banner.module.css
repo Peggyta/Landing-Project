@@ -90,7 +90,11 @@
         margin: auto;
     }
 
-    .infoContainer{
+    .contentContainer img{
+        width: 800px;
+    }
+
+    .infoContainer {
         position: absolute;
         bottom: -90px;
         left: 60px;
@@ -99,7 +103,8 @@
         font-weight: 600;
         font-size: 16.5px;
     }
+
     .textContainer {
-        display:none;
+        display: none;
     }
 }
