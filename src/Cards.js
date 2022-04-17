@@ -10,9 +10,9 @@ class Cards extends Component {
     render() {
         return (
             <div className={styles.Container}>
-                <Card image={pen1} name="Gel Pen" price="9.99 $"/>
-                <Card image={pen2} name="Mechanical Pen" price="5.99 $"/>
-                <Card image={pen3} name="Ink Pen" price="6.99 $"/>
+                <Card image={pen1} name="Gel Pen" price="9 $"/>
+                <Card image={pen2} name="Mechanical Pen" price="5 $"/>
+                <Card image={pen3} name="Ink Pen" price="6 $"/>
                 <Card image={pen4} name="Graphic Pencil" price="8 $" />
             </div>
         );

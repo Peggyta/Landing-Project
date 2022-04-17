@@ -9,7 +9,7 @@ const Navbar = () => {
         <header className={styles.header}>
             <div className={styles.listShopping}>
             <ul className={styles.firstList}>
-                <li>Our Products</li>
+               <li>Our Products</li>
                 <li>Inspiration</li>
                 <li>Company</li>
             </ul>

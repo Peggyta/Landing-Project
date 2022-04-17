@@ -26,7 +26,7 @@ class Card extends Component {
       }
 
     render() {
-        const {image, name, price} = this.props;
+        const {image, name,price} = this.props;
         const{counter} = this.state;
         return (
         <div className={styles.Container}>
