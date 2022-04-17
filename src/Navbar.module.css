@@ -9,12 +9,13 @@
     width: 100%;
 }
 
-.firstList, .secondList{
+.firstList , .secondList{
     display: flex;
     list-style-type: none;
     cursor: pointer;
     max-width: 1000px;
 }
+
 
 .secondList li {
     font-size: 0.7rem;
@@ -33,13 +34,14 @@
   bottom: 100px;
 }
 
-.firstList li, .secondList li{
+.firstList li a, .secondList li{
     padding: 0 15px;
     color: rgb(202, 222, 238);
+    text-decoration: none;
 }
 
 
-.firstList li:hover , .secondList li:hover {
+.firstList li a:hover , .secondList li:hover {
     color: #fff;
     transition: all .3s ease-in;
 }
@@ -97,10 +99,15 @@ width: 250px;
         background: rgb(94, 116, 116);
     }
 
-    .responsiveMenu li{
+    .responsiveMenu li {
         padding: 20px 0;
         font-weight: 600;
         cursor: pointer;
+    }
+
+    .responsiveMenu li a {
+        text-decoration: none;
+        color: #000;
     }
    
 

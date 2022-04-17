@@ -9,21 +9,21 @@ const Navbar = () => {
         <>
         <header className={styles.header}>
             <div className={styles.listShopping}>
-            <ul className={styles.firstList}>
-               <li><Link to="/">Home Page</Link></li>
-                <li><Link to="/products">Our Products</Link></li>
-                <li><Link to="/inspiration">Inspiration</Link></li>
-            </ul>
+                <ul className={styles.firstList}>
+                    <li><Link to="/">Home Page</Link></li>
+                    <li><Link to="/products">Our Products</Link></li>
+                    <li><Link to="/inspiration">Inspiration</Link></li>
+                </ul>
             </div>
             <div className={styles.logo}>
-            <img className={styles.logo} src={logo} alt="faber-castell logo"/>
+                <img className={styles.logo} src={logo} alt="faber-castell logo"/>
             </div>
             <div className={styles.listContainer}>
-            <ul className={styles.secondList}>
-                <li>Press</li>
-                <li>Service & Help</li>
-                <li>Country Selector</li>
-            </ul>
+                <ul className={styles.secondList}>
+                    <li>Press</li>
+                    <li>Service & Help</li>
+                    <li>Country Selector</li>
+                </ul>
             </div>
         </header>
         <div className={styles.productsNavbar}>
@@ -38,11 +38,11 @@ const Navbar = () => {
                 </ul>
                 <div className={styles.responsiveMenu}>
                     <ul>
-                        <li>Our Products</li>
+                        <li><Link to ="/">Home Page</Link></li>
                         <hr/>
-                        <li>Inspiration</li>
+                        <li><Link to ="/products">Our Products</Link></li>
                         <hr/>
-                        <li>Company</li>
+                        <li><Link to ="inspiration">Inspiration</Link></li>
                     </ul>
                 </div>
             </div>
