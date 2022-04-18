@@ -7,13 +7,21 @@ import pen3 from "./images/ink pen.jpg";
 import pen4 from "./images/graphic pencil.jpg";
 
 class Cards extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            pencilData : [
+                {id:1, image: pen1, name: "gel pen", price: "9 $"},
+                {id:2, image: pen2, name: "mechanical pen", price: "5 $"},
+                {id:3, image: pen3, name: "ink pen", price: "6 $"},
+                {id:4, image: pen4, name: "graphic pencil", price:"8 $"},
+            ]
+        }
+    }
     render() {
         return (
             <div className={styles.Container}>
-                <Card image={pen1} name="Gel Pen" price="9 $"/>
-                <Card image={pen2} name="Mechanical Pen" price="5 $"/>
-                <Card image={pen3} name="Ink Pen" price="6 $"/>
-                <Card image={pen4} name="Graphic Pencil" price="8 $" />
+                {this.state.pencilData.map(pencil => <Card key = {pencil.id} image = {pencil.image} name = {pencil.name} price = {pencil.price} />)}
             </div>
         );
     }
