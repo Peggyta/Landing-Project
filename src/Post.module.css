@@ -1,0 +1,14 @@
+.Container {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(239,239,249,1) 0%, rgba(222,247,252,0.028448879551820738) 100%, rgba(255,255,255,1) 100%);
+    border: 1px rgb(90, 143, 178) solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.postNum{
+    font-size: small;
+    padding-bottom: 5px;
+    color: rgb(80, 80, 190);
+}

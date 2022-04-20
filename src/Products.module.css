@@ -24,7 +24,7 @@
         grid-template-columns: repeat(1, 390px);
     }
     .loaderIcon{
-       display: none;
+      display: none;
     }
     
 }
@@ -34,7 +34,7 @@
         grid-template-columns: repeat(2, 330px);
     }
     .loaderIcon{
-       display: none;
+      display: none;
     }
 }
   

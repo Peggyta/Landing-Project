@@ -1,0 +1,13 @@
+.Container{
+    min-height: 100vh;
+}
+
+.Container h1, h2 {
+ text-align: center;
+ margin-top: 10px;
+
+}
+
+.Container h2 {
+    color: rgb(103, 154, 193);
+}
